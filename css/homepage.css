@@ -1,0 +1,266 @@
+section {
+    padding: 100px 0px;
+}
+
+h4 {
+    font-weight: bold;
+}
+
+h5 {
+    font-weight: 400;
+}
+
+p {
+    text-align: left;
+    padding-top: 2%;
+    font-weight: 400;
+}
+
+
+/* Start section home header */
+
+.home-banner {
+    background-image: url("../images/backround.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-width: 100%;
+    min-height: 100vh;
+}
+
+.carousel-indicators {
+    bottom: 25px;
+}
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.carousel-indicators .active {
+    background-color: #FF3D00;
+}
+
+.carousel-control-next {
+    left: 80%;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ff0000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+    width: 30px;
+    height: 48px;
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ff0000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+    width: 30px;
+    height: 48px;
+}
+
+.intro {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.intro h3,
+.intro p {
+    margin-bottom: 10%;
+}
+
+.intro a {
+    border-radius: 25px;
+}
+
+.text-intro h3 span {
+    font-weight: 300;
+}
+
+
+/* End section home header */
+
+
+/* Start section home about */
+
+.home-about__typo {
+    padding: 14% 0;
+}
+
+.home-about__typo a {
+    transition: .6s;
+}
+
+.home-about__typo a span {
+    color: #FF3D00;
+    font-weight: 500;
+    text-decoration: none;
+    border-bottom: 5px solid #FF3D00;
+}
+
+.home-about__typo a img {
+    transition: .6s;
+}
+
+.icon-read-more {
+    margin-left: 10px;
+    transition: .6s;
+}
+
+.home-about__typo a:hover {
+    text-decoration: none;
+    margin-left: 10px;
+    transition: .6s;
+}
+
+.home-about__images img {
+    display: block;
+}
+
+.home-about__images img#vector1 {
+    width: 45%;
+    height: auto;
+    margin-left: 21%;
+}
+
+.home-about__images img#vector2 {
+    width: 20%;
+    height: auto;
+    margin-top: -18%;
+    margin-left: 75%;
+}
+
+.home-about__images img#vector3 {
+    width: 50%;
+    height: auto;
+    margin-left: 8%;
+    margin-top: -20%;
+}
+
+.home-about__images img#home1 {
+    width: 48%;
+    height: auto;
+    margin-left: 0%;
+    margin-top: -45%;
+}
+
+.home-about__images img#home2 {
+    width: 38%;
+    height: auto;
+    margin-left: 47%;
+    margin-top: -42%;
+}
+
+
+/* End section home about */
+
+.our-services {
+    margin-top: 75px;
+    padding-bottom: 30px;
+    padding: 0 20px;
+    height: calc(100% - 75px);
+    text-align: justify;
+    border-radius: 10px;
+    background-color: #fff;
+    transition: all .4s ease-in-out;
+    box-shadow: 0 0 25px 0 rgba(20, 27, 202, .17)
+}
+
+.our-services .title-service {
+    margin-bottom: -21px;
+    transform: translateY(-50%);
+    text-align: center;
+    background-color: #D40000;
+    color: #FFF8F8;
+    width: 100%;
+    padding: 15% 0;
+    border-radius: 20px;
+}
+
+.btn-readmore {
+    text-align: end;
+}
+
+.our-services a {
+    border: 1px solid #D40000;
+    border-radius: 25px;
+}
+
+.our-services:hover {
+    background-color: #0f0f0f;
+}
+
+.our-services:hover a {
+    background-color: #D40000;
+}
+
+.our-services:hover h4,
+.our-services:hover p,
+.our-services:hover a {
+    color: #FFF8F8;
+}
+
+.home-product__title h4 span {
+    font-weight: 400;
+}
+
+.logo-product {
+    border: 2px solid #D40000;
+    padding: 4% 0;
+    border-radius: 70px;
+    margin: 0px auto;
+}
+
+.logo-product-responsive {
+    margin-bottom: 10%;
+}
+
+.home-clients-say__content {
+    padding: 0 15%;
+    margin: auto;
+}
+
+.flex {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto
+}
+
+.padding {
+    padding-top: 3rem;
+}
+
+.owl-carousel .item {
+    margin: 10px 20px 10px 10px;
+}
+
+.top-clients-say img {
+    width: 50px;
+    height: 20px;
+}
+
+.top-clients-say p img {
+    width: 15px;
+    height: 10px;
+}
+
+.top-clients-say img.img-star {
+    width: 75px;
+    height: 13px;
+}
+
+.top-clients-say {
+    padding: 0 10px;
+    height: 150px;
+    border-radius: 15px;
+    transition: all .4s ease-in-out;
+    font-size: smaller;
+}
+
+@media screen and (max-width: 768px) {
+    .top-clients-say {
+        height: 200px;
+    }
+    .owl-carousel .item {
+        margin: 0;
+    }
+}
